@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: cener;
+    padding: 40px 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.share-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #e0e0e0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.share-btn:Hover {
+    background-color: #d0d0d0;
+}
+
+.logo img {
+    width: 180px;
+    margin: 40px 0 20px;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+
+p span {
+    font-size: 20px;
+    color: turquoise;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-btn {
+    background-color: #d9d9d9;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.link-btn i {
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link-btn:hover {
+    background-color: #cfcfcf;
+    transform: translateY(-2px);
+}
+ 
